@@ -1,0 +1,58 @@
+:root {
+    --primary-text-color:#757575;
+    --title-text-color: #000;
+    --secondary-title-color:#212121;
+    --accent-color:#2196F3;
+    --secondary-color:#FFFFFF;
+
+}
+body{color: var(--primary-text-color);
+background-color: #F5F5F5;}
+ul{list-style: none;}
+
+/* header */
+/* site-nav */
+.logo {color: var(--accent-color);}
+.logo-studio {color: var(--title-text-color);}
+.site-nav .link {color:var(--secondary-title-color);}
+.site-nav .link:hover,
+.site-nav .link:focus {color: var(--accent-color);}
+.site-nav .link.current  {color: var(--accent-color);}
+
+
+.mail {color: var(--accent-color);}
+.phone {color: var(--primary-text-color);}
+
+
+ /* MAIN */
+
+ /* hero */
+ 
+ .hero-title{color:var(--secondary-color);}
+
+ /* buttons */
+ 
+ .button {
+ color: var(--title-text-color);
+ background-color: var(--secondary-color);
+ }
+.hero .button {color: var(--secondary-color);
+background-color: var(--accent-color );}
+
+/* section 2 */
+ .section-title {color:var(--secondary-title-color);}
+ 
+ /* section 3*/
+ .doing-list .title {color: var(--secondary-title-color);}
+ 
+ /* section 4 */
+ .members .name {color: var(--secondary-title-color) ;}
+ .members-title {color: var(--secondary-title-color);}
+
+
+
+ 
+           /* STYLES FOR PORTFOLIO */
+
+
+ 

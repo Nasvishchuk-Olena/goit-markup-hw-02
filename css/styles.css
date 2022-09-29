@@ -4,11 +4,15 @@
     --secondary-title-color:#212121;
     --accent-color:#2196F3;
     --secondary-color:#FFFFFF;
-
+     --primary-background-color: #F5F5F5;
+     --secondary-background-color: #F5F4FA;
+     --third-background-color:#2F303A;
 }
-body{color: var(--primary-text-color);
-background-color: #F5F5F5;}
+.body {color: var(--primary-text-color);
+background-color: var(--primary-background-color)}
 ul{list-style: none;}
+[href] {color: inherit}
+
 
 /* header */
 /* site-nav */
@@ -20,8 +24,11 @@ ul{list-style: none;}
 .site-nav .link.current  {color: var(--accent-color);}
 
 
-.mail {color: var(--accent-color);}
-.phone {color: var(--primary-text-color);}
+.mail , .phone {color: var(--primary-text-color);}
+.mail:hover,
+.mail:focus {color: var(--accent-color);}
+.phone:hover,
+.phone:focus {color: var(--accent-color);}
 
 
  /* MAIN */
@@ -49,10 +56,24 @@ background-color: var(--accent-color );}
  .members .name {color: var(--secondary-title-color) ;}
  .members-title {color: var(--secondary-title-color);}
 
+/* footer */
+
+
 
 
  
            /* STYLES FOR PORTFOLIO */
 
+                  /* Main */
 
- 
+ .button-portfolio {color: var(--secondary-title-color);
+    background-color: var(--secondary-background-color);}
+
+  .button-portfolio:hover,
+  .button-portfolio:focus {color: var(--secondary-color);
+   background-color: var(--accent-color);}
+
+
+.card .caption {color: var(--secondary-title-color);}
+.card .title {color: var(--primary-text-color);} 
+

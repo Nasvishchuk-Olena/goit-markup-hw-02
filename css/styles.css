@@ -82,7 +82,8 @@ text-decoration: none;}
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
-  line-height: 1.9;}
+  line-height: 1.9;
+  cursor: pointer;}
     .hero .button:hover{color: var(--primary-text-color);}
 
 /* section2 */
@@ -147,6 +148,7 @@ letter-spacing: 0.03em;}
     line-height:1.6;  
     text-align: center;
     letter-spacing: 0.03em;
+    cursor: pointer;
  }
 
  .button-portfolio:hover,
@@ -167,7 +169,6 @@ letter-spacing: 0.03em;}
   letter-spacing: 0.06em;}
 
  .card .title {color: var(--primary-text-color);
-text-decoration: none;
 font-size: 16px;
 line-height: 1.9;
 letter-spacing: 0.03em;}

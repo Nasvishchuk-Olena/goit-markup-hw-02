@@ -21,20 +21,19 @@ font-size: 16px;
 font-weight: 400;
 line-height: 1.5;}
 
-             /* header */
+/* header */
 ul {list-style: none;}
 header {background-color: var(--secondary-color);
-font-family: roboto, sans-serif;
 font-weight: 500;
 line-height: 1.2;}
-.logo{color: var(--accent-color);
-  font-family: 'Raleway';
-  font-weight: 700;
-  font-size: 26px;
-  letter-spacing: 0.03em;
-   line-height: 1.4;}
-.logo-studio {color: var(--title-text-color);}
-.logo{text-decoration: none;}
+
+.logo-studio{ color: var(--title-text-color);
+font-family: 'Raleway', sans-serif;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.2;
+letter-spacing: 0.03em;}
+.logo {color: var(--accent-color);}
 
 .site-nav .link {color: var(--secondary-title-color);
 text-decoration: none;}
@@ -89,30 +88,28 @@ text-decoration: none;}
 /* section2 */
 
 .section-title {color: var(--secondary-title-color);
-  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;}
 .section .caption {
-    font-size: 14px;
-    line-height: 24px;
-    letter-spacing: 0.03em;}
+font-size: 14px;
+line-height: 2;
+letter-spacing: 0.03em;}
   
-    .doing-list .title {color: var(--secondary-title-color);
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;}
+.doing-list .title {color: var(--secondary-title-color);
+font-size: 36px;
+line-height: 1.17;
+letter-spacing: 0.03em;}
   
-    .members {background-color: var(--secondary-background-color);}
-    .members-title {color: var(--secondary-title-color);}
-    .members .name {color: var(--secondary-title-color);
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.2;
-    letter-spacing: 0.03em;}
-    .members .card {background-color: var(--fifth-background-color);}
+.members {background-color: var(--secondary-background-color);}
+.members-title {color: var(--secondary-title-color);}
+.members .name {color: var(--secondary-title-color);
+font-weight: 500;
+font-size: 16px;
+line-height: 1.2;
+letter-spacing: 0.03em;}
+.members .card {background-color: var(--fifth-background-color);}
 
 .card .content {font-size: 16px;
   line-height: 1.2;
@@ -123,19 +120,18 @@ text-decoration: none;}
 .footer .logo-studio {color: var(--secondary-color);}
 
 .footer .info {color: var(--secondary-color);
-font-style: normal;
 font-size: 14px;
 line-height: 2;
 letter-spacing: 0.03em;}
 
 .footer .link {color: var(--white-transparent-color);
-font-style: normal;
 font-size: 14px;
 line-height: 2;
 letter-spacing: 0.03em;}
 .footer .link:hover,
 .footer .link:focus {color:var(--accent-color);}
-
+.footer .info {font-style: normal;}
+.footer .link {font-style: normal;}
  /* STYLES FOR PORTFOLIO */
 
  /* Main */
@@ -143,6 +139,7 @@ letter-spacing: 0.03em;}
  .button-portfolio {
    color: var(--secondary-title-color);
    background-color: var(--secondary-background-color);
+   font-family: inherit;
   font-weight: 500;
     font-size: 16px;
     line-height:1.6;  
@@ -154,21 +151,19 @@ letter-spacing: 0.03em;}
  .button-portfolio:hover,
  .button-portfolio:focus {
   color: var(--secondary-color);
- background-color: var(--accent-color);
- }
+ background-color: var(--accent-color);}
+.promo {background-color: #FFFFFF;}
 
 
- .card .caption {
+ .promo .caption {
   color: var(--secondary-title-color);
   text-decoration: none;
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 700;
   font-size: 18px;
   line-height: 2;
-  letter-spacing: 0.06em;}
+  letter-spacing: 0.06em;
+b}
 
- .card .title {color: var(--primary-text-color);
+ .promo .title {color: var(--primary-text-color);
 font-size: 16px;
 line-height: 1.9;
 letter-spacing: 0.03em;}
